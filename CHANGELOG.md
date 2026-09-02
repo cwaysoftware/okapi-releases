@@ -1,3 +1,9 @@
+## v0.6.0 -- 2026-09-02
+
+Release v0.6.0
+Initial relase for data matrix and lots of other formats.
+
+
 ## v0.5.0 -- 2026-08-14
 
 Okapi 0.5.0 — every linear symbology the engine can reach, and a New button that picks one
