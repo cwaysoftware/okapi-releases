@@ -1,3 +1,19 @@
+## v0.7.1 -- 2026-10-09
+
+Release v0.7.1
+
+New
+- ITF-14, drawn to GS1 with its 4.83 mm bearer bar frame on by default. A "Bearer bars" switch turns the frame off, with a warning. Type 13 digits, or paste a full 14-digit GTIN; its check digit is verified.
+- Overprint fill is now on by default.
+- A "White background" switch leaves out the white rectangle behind the bars.
+- Hover over the barcode for a quick hint; keep the pointer there for a card with its size, X-dimension, ink, overprint and warnings.
+- ⌘-click the barcode to copy it with the white background, even with the switch off.
+- Hide the inspector with the panel button in the title bar. The panel, its folded sections and the preview zoom are remembered between launches.
+
+Improved
+- The placeholders in the payload field are easier to read in dark mode.
+
+
 ## v0.6.0 -- 2026-09-02
 
 Release v0.6.0
