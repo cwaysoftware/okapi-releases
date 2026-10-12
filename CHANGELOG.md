@@ -1,3 +1,13 @@
+## v0.8.0 -- 2026-10-12
+
+Release v0.8.0
+New
+- Export now tells you when the barcode is out of spec. If the file you export has warnings or errors, for example a quiet zone that is too narrow or a size below the GS1 minimum, a notice says so the moment the file is written, e.g. "Exported with 2 warnings". The file is still written; each finding is listed in the strip at the bottom of the window.
+- Copying to the clipboard says the same, e.g. "Copied to clipboard — 1 warning".
+Fixed
+- A failed export (for example a full disk) is now reported as a failed export, instead of marking the barcode data as invalid.
+
+
 ## v0.7.2 -- 2026-10-12
 
 Release v0.7.2
