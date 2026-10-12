@@ -1,3 +1,14 @@
+## v0.7.2 -- 2026-10-12
+
+Release v0.7.2
+
+Fixed
+- Updates now install when Okapi starts. Until now the launch-time update was cut off when the start screen closed, so installed copies never updated themselves. When a new version is available, Okapi now waits for it on the start screen, shows the download progress, and restarts into the new version.
+- A download that stalls or fails no longer gets in the way: after 30 seconds without progress, Okapi opens at the version you have.
+
+Please install this version once by hand from the .dmg below. Copies older than 0.7.2 still have the faulty start screen and will only pick it up if left open for two hours. From 0.7.2 on, every update installs by itself at launch.
+
+
 ## v0.7.1 -- 2026-10-09
 
 Release v0.7.1
