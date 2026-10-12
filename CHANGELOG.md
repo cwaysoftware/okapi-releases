@@ -1,3 +1,13 @@
+## v0.9.0 -- 2026-10-12
+
+Release v0.9.0
+New
+- Say where a barcode will be scanned. GS1 sets different size limits depending on where a barcode is scanned: at a retail checkout only, in warehouses and distribution only, or both. Until now Okapi always checked EAN and UPC barcodes against the retail-checkout limits, so an EAN-13 at 100% on an outer case showed no warning even though GS1 requires it to be at least 150% when it is also scanned in a warehouse. The Size section now has a "Scanned at" setting for EAN-13, EAN-8, UPC-A, UPC-E and ITF-14, shows the size range GS1 allows for your choice, and warns when the barcode is too small or too large for it.
+- Changing the setting never resizes your barcode; it only changes what the warnings check against. Documents where you don't choose anything are checked exactly as before.
+Changed
+- Size warnings for EAN, UPC and ITF-14 now name the GS1 table they come from, e.g. "below the 1.50 minimum in GS1 symbol specification table 3 (Retail POS and general distribution)".
+
+
 ## v0.8.0 -- 2026-10-12
 
 Release v0.8.0
