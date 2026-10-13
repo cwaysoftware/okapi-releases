@@ -1,3 +1,14 @@
+## v0.10.0 -- 2026-10-13
+
+Release v0.10.0
+New
+- GS1-128 and GS1 DataMatrix. Type the GS1 element string with the Application Identifiers in brackets, e.g. (01)09506000134352(10)ABC123 or [01]09506000134352[10]ABC123. Okapi checks the data with the GS1 rules built into its barcode engine: an unknown AI or data of the wrong length is refused; a wrong check digit, an invalid date, letters where an AI expects digits, or more than 48 data characters in a GS1-128 is drawn and reported as a warning. Rules about which AIs must or must not appear together are not checked yet.
+- Sizes for GS1-128 and GS1 DataMatrix follow the GS1 tables for where the barcode is scanned, including a new "Logistic units" choice (GS1 table 5) for SSCC and other logistics labels. A GS1-128 longer than GS1's 165.10 mm limit, quiet zones included, gets a warning.
+- Every warning now points at the setting it is about. The settings panel marks each section that has a warning, even when folded, and clicking a warning in the strip at the bottom opens that setting and highlights it.
+Changed
+- The "Human readable digits" switch is now called "Human readable text", since GS1-128 prints an element string rather than digits.
+
+
 ## v0.9.3 -- 2026-10-13
 
 Release v0.9.3
