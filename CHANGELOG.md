@@ -1,3 +1,10 @@
+## v0.9.2 -- 2026-10-13
+
+Release v0.9.2
+Fixed
+- Okapi no longer cuts short its check for updates when it starts. On a slow connection the start screen could close while it was still waiting for an answer, so an available update was missed until the app had been open for two hours. The start screen now gets the full time it allows for the check, and still opens the app if something goes wrong.
+
+
 ## v0.9.1 -- 2026-10-13
 
 Release v0.9.1
