@@ -1,3 +1,10 @@
+## v0.9.3 -- 2026-10-13
+
+Release v0.9.3
+Fixed
+- More reliable start-up updates. If the start screen cannot tell the app that an update has been found, it no longer starts a download that would be cut off halfway; Okapi opens at the version you have and picks the update up next time. Any other start-up hiccup of this kind is now recorded in the app's log instead of passing unnoticed.
+
+
 ## v0.9.2 -- 2026-10-13
 
 Release v0.9.2
