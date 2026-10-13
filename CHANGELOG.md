@@ -1,3 +1,10 @@
+## v0.9.1 -- 2026-10-13
+
+Release v0.9.1
+Fixed
+- An update that Okapi gave up on while starting can no longer install itself later. If a download stalled and Okapi opened at the version you have, the download could still finish in the background and replace the app on disk while you were working. Now an update is only installed when its download finishes while the start screen is still waiting for it; otherwise it is simply picked up again next time.
+
+
 ## v0.9.0 -- 2026-10-12
 
 Release v0.9.0
