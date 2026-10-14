@@ -1,3 +1,10 @@
+## v1.0.0 -- 2026-10-14
+
+Release v1.0.0
+New
+- Drag the barcode straight out of Okapi. Press on the barcode and drag it into an Illustrator or InDesign document: it lands exactly as a paste does, as editable vector artwork with its spot colour and overprint intact. Drag it onto the desktop or into a Finder folder to save it as a PDF named after the barcode's data. Hold ⌘ as you start the drag to include the white background, as ⌘-click does. A click that does not move still copies, as before.
+
+
 ## v0.11.0 -- 2026-10-14
 
 Release v0.11.0
