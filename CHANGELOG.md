@@ -1,3 +1,13 @@
+## v1.1.0 -- 2026-10-14
+
+Release v1.1.0
+New
+- A trashcan beside the code field clears it in one click and puts the cursor back, ready for the next code.
+Changed
+- The settings panel on the right now starts hidden for new users; open it with the panel button in the top-right corner. Whether it is open or closed is remembered between launches, so anyone who already has it open keeps it open.
+- The icons beside the code field sit closer together.
+
+
 ## v1.0.0 -- 2026-10-14
 
 Release v1.0.0
