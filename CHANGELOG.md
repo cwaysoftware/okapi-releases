@@ -1,3 +1,11 @@
+## v1.3.0 -- 2026-10-16
+
+Release v1.3.0
+- The batch strip now sits at the top of the preview, and scrolls to show every code — with a mouse wheel too — keeping the chosen one in view.
+- Pasting several codes (a column, a row, or cells from a spreadsheet) into the payload field opens the batch editor with them.
+- The trash can beside the payload field is now an × inside it, shown only when there is something to clear.
+
+
 ## v1.2.0 -- 2026-10-16
 
 Release v1.2.0
