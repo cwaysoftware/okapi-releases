@@ -1,3 +1,10 @@
+## v1.1.1 -- 2026-10-16
+
+Release v1.1.1
+Changed
+- The libraries Okapi is built on are updated to their latest versions. Nothing changes in how the app looks or works.
+
+
 ## v1.1.0 -- 2026-10-14
 
 Release v1.1.0
