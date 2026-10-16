@@ -1,3 +1,15 @@
+## v1.2.0 -- 2026-10-16
+
+Release v1.2.0
+- The barcode type is now a button on the line above the payload field: click the name to switch types.
+- Under the field, a description of the chosen type: its history, what it carries, and where it is used.
+- Rules for each type, in folding sections: what you can type, what the data means, print size and clear space, and where the symbol goes. Print sizes come from the same numbers the app checks against.
+- Batch payloads: enter many codes at once, or paste a CSV column, and click through the results.
+- Recent projects have moved to File ▸ Open Recent, with Clear Menu.
+- Choose which barcode types the menu offers, grouped by family.
+- The sidebar now scrolls when its content is taller than the window.
+
+
 ## v1.1.1 -- 2026-10-16
 
 Release v1.1.1
